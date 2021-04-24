@@ -439,8 +439,8 @@ gitalk:
   clientID: f68380cabad6ad4a22c5
   clientSecret: e9c3a5e23023e14d91aaf817bc03305b633598e0
   repo: wy-soft.github.io
-  owner: # colingpt
-  admin: # colingpt
+  owner: wy-soft
+  admin: wy-soft
 
 # Baidu Share
 # Available value:
