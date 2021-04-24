@@ -435,10 +435,10 @@ changyan:
 
 # Support for gitalk comments system.
 gitalk:
-  enable: false
-  clientID: # 54730ddf7b9420460c03
-  clientSecret: # c05684701b25ff1c19ea0c01ce4d80c125e0707d
-  repo: # colingpt.github.io
+  enable: true
+  clientID: f68380cabad6ad4a22c5
+  clientSecret: e9c3a5e23023e14d91aaf817bc03305b633598e0
+  repo: wy-soft.github.io
   owner: # colingpt
   admin: # colingpt
 

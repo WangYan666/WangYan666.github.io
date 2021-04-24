@@ -89,7 +89,7 @@
 
 
 
-  <link rel="alternate" href="/atom.xml" title="wy-soft" type="application/atom+xml" />
+  <link rel="alternate" href="/atom.xml" title="wy-blog" type="application/atom+xml" />
 
 
 
@@ -114,13 +114,13 @@
 <meta name="description" content="WY blog">
 <meta name="keywords" content="Jekyll, NexT">
 <meta property="og:type" content="website">
-<meta property="og:title" content="wy-soft">
+<meta property="og:title" content="wy-blog">
 <meta property="og:url" content="http://localhost:4000/category/">
-<meta property="og:site_name" content="wy-soft">
+<meta property="og:site_name" content="wy-blog">
 <meta property="og:description" content="WY blog">
 <meta property="og:locale" content="zh-Hans">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="wy-soft">
+<meta name="twitter:title" content="wy-blog">
 <meta name="twitter:description" content="WY blog">
 
 
@@ -154,7 +154,7 @@
 
 
 
-  <title>分类 | wy-soft</title>
+  <title>分类 | wy-blog</title>
   
 
 
@@ -190,7 +190,7 @@
     <div class="custom-logo-site-title">
       <a href="/"  class="brand" rel="start">
         <span class="logo-line-before"><i></i></span>
-        <span class="site-title">wy-soft</span>
+        <span class="site-title">wy-blog</span>
         <span class="logo-line-after"><i></i></span>
       </a>
     </div>
@@ -299,12 +299,45 @@
       
 
       
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article" route="/%E5%8F%82%E8%80%83">
+    <header class="post-header">
+
+      <h2 class="post-title">
+        
+            <a class="post-title-link" href="/%E5%8F%82%E8%80%83/2021/04/24/Jekyll%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E5%8F%82%E8%80%83/" itemprop="url">
+              
+                <span itemprop="name">Jekyll博客搭建参考</span>
+              
+            </a>
+        
+      </h2>
+
+      <div class="post-meta">
+        <time class="post-time" itemprop="dateCreated"
+              datetime="2021-04-24T00:00:00+08:00"
+              content="2021-04-24" >
+          04-24
+        </time>
+      </div>
+
+    </header>
+  </article>
+
+    
+  
+    
+    
+
+    
+      
+
+      
   <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article" route="/test%2Ftest">
     <header class="post-header">
 
       <h2 class="post-title">
         
-            <a class="post-title-link" href="/test/test/2013/12/24/test/" itemprop="url">
+            <a class="post-title-link" href="/test/test/2021/04/24/test/" itemprop="url">
               
                 <span itemprop="name">Just test</span>
               
@@ -314,9 +347,9 @@
 
       <div class="post-meta">
         <time class="post-time" itemprop="dateCreated"
-              datetime="2013-12-24T00:00:00+08:00"
-              content="2013-12-24" >
-          12-24
+              datetime="2021-04-24T00:00:00+08:00"
+              content="2021-04-24" >
+          04-24
         </time>
       </div>
 
@@ -370,7 +403,7 @@
           
             <div class="site-state-item site-state-posts">
               <a href="/archives/">
-                <span class="site-state-item-count">1</span>
+                <span class="site-state-item-count">2</span>
                 <span class="site-state-item-name">日志</span>
               </a>
             </div>
@@ -381,7 +414,7 @@
             
             <div class="site-state-item site-state-categories">
               <a href="/categories/">
-                <span class="site-state-item-count">1</span>
+                <span class="site-state-item-count">2</span>
                 <span class="site-state-item-name">分类</span>
               </a>
             </div>
@@ -588,7 +621,7 @@
         
         
 
-        var maps = { 'test%2Ftest': 1, };
+        var maps = { '%E5%8F%82%E8%80%83': 1, 'test%2Ftest': 1, };
         var dirs = hash.split("/");
         var collection = decodeURIComponent(dirs[1]);
         dirs.splice(0, 2);
@@ -600,7 +633,7 @@
         }
 
         $('.collection-title')[0].childNodes[1].childNodes[0].nodeValue = collection;
-        document.title = "分类: " + collection + " | wy-soft";
+        document.title = "分类: " + collection + " | wy-blog";
 
         var sizes = maps[encodeURIComponent(collection)];
         var base = "#" + "/" + collection;
